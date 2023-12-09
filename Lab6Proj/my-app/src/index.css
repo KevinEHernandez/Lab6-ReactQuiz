@@ -1,0 +1,95 @@
+/*References
+https://www.w3schools.com/react/react_css_styling.asp 
+https://www.w3schools.com/css/css3_backgrounds.asp
+*/
+
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: url(https://static.vecteezy.com/system/resources/previews/012/672/876/original/comic-and-manga-background-panel-effect-shocked-or-surprised-expression-illustration-of-flat-radial-motion-speed-line-in-cartoon-style-for-speech-bubbles-copy-space-or-pop-art-ads-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .app {
+    background-color: #1414b0;
+    width: 400px;
+    min-height: 200px;
+    height: min-content;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    transition: background-color 0.3s;
+  }
+  
+  .score-section {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+  }
+  
+  .question-section {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .question-count span {
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  .question-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .question-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  button {
+    width: 100%;
+    font-size: 16px;
+    color: #000000;
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    color: #ffffff;
+    background-color: #020202;
+  }
+  
